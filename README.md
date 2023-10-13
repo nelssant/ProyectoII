@@ -83,3 +83,4 @@
 6. Ahora se repite el paso 3.
 7. Ahora que ya existe un archivo, desplegamos las funciones y condiciones: Si el usuario ha ingresado que no dese editar el archivo, en automático el programa muestra la información que contiene dicho archivo y finaliza.
 8. Si el usuario selecciona que si desea editar el archivo, en automático el programa ingresa al While que se encuentra en la validacion: (backtick) (if edicion1.lower() == "yes" or edicion2.lower() == "yes":)
+9. 
