@@ -114,3 +114,10 @@
 14. Si la opción es 4, en automático llamamos a la función lectura
 15. Si la opción es 5, en automático salimos del programa
 16. De otro modo, si el usuario ingresa una opción no parametrizada, el programa saldrá
+------------------------------------------------------------------------------------------------------------------------------------
+# Mejora continua
+
+1. Mantenimiento
+2. Depuración y optimización
+3. Agregar excepciones posibles
+4. Realizar más dinámica la aplicación
