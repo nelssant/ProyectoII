@@ -86,4 +86,26 @@
    ```python
    if edicion1.lower() == "yes" or edicion2.lower() == "yes":)
    ```
-10. 
+   Al ingresar a la condición anterior, en automático llamremos a la función y por ende nos pedirá una opción que se almacenará en la variable menu.
+   ```python
+   mostrar_menu()
+   ```
+9. Si la opción es 1, ingresará en automático a solicitar el nombre y el código del producto.
+10. Despues de que el usuario ingrese el código, el programa ingresa a un ciclo while el cual será falso hasta que el código no aparezca en el archivo; mientras el código del producto aparezca en el archivo, el ciclo while siempre estará solicitando al usuario que ingrese el código corrrecto.
+11. Cuando el ciclo es falso, en automático llamamos a la función:
+    ```python
+    manipulacion_archivo()
+    ```
+   Esta función se maneja con base a a las variables edicion1 y edicion2
+   - La lógica es la misma para ambas variables, sin embargo el detalle está en la ruta almacenada.
+   - Con esta función creamos una variable denominada varibale la cual contendrá a la función crear_producto puesto que ésto nos servirá para poder anotar los datos que ingrese el usuario.
+   ```python
+     variable = crear_producto(nombre, codigo, precio, proveedor, existencia, estado, descuento)
+            with open(archivo_path, 'a') as archivo:
+                archivo.write("\t".join(map(str, variable.values())) + "\n")
+                print("Archivo editado exitosamente.")
+        except FileNotFoundError:
+            print(f"El archivo '{archivo_path}' no se encontro.")
+        except Exception as e:
+            print(f"Se produjo un error: {e}")
+   ```
