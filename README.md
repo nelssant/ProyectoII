@@ -109,3 +109,8 @@
         except Exception as e:
             print(f"Se produjo un error: {e}")
    ```
+12. Si la opción es 2, en automático llamamos a la función buscar_producto
+13. Si la opción es 3, en automático llamamos a la función modificar_datos
+14. Si la opción es 4, en automático llamamos a la función lectura
+15. Si la opción es 5, en automático salimos del programa
+16. De otro modo, si el usuario ingresa una opción no parametrizada, el programa saldrá
