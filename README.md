@@ -47,7 +47,7 @@
 -------------------------------------------------------------------------------------------------------------------------------
 8. **Operaciones del Menu**
    1. Permite al usuario el poder agregar un producto.
-   2. Le permite al usuario poder buscar un producto mediante el nombre o el codigo (Con caracteres que se encuentren en dichos parametros(
+   2. Le permite al usuario poder buscar un producto mediante el nombre o el codigo (Con caracteres que se encuentren en dichos parametros)
    3. Le permitirá al usuario  poder modificar el producto menos el código.
    4. Unicamente leerá el archivo de nuevo, si el usuario ya hizo cambios, al seleccionar esta opción se mostrarán dichos cambios.
    5. Le permitirá al usuario el poder finalizar la ejecución de la aplicación
