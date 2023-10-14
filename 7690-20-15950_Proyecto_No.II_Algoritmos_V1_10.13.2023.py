@@ -176,11 +176,10 @@ if edicion1.lower() == "yes" or edicion2.lower() == "yes":
             while True:
                 try:
                     with open(rutas, 'r') as archivo:
-
                         encontrado = False
                         for linea in archivo:
                             producto = linea.strip().split("\t")
-                            if codigo in producto[1].lower():
+                            if codigo == producto[1].lower():
                                     codigo = input("Codigo repetido; Ingrese codigo del producto: ").strip().lower()
                                     encontrado = True
                         if not encontrado:
@@ -210,5 +209,3 @@ if edicion1.lower() == "yes" or edicion2.lower() == "yes":
         else:
             print("Opcion no valida ")
             print()
-else:
-    print("Saliendo del programa")
